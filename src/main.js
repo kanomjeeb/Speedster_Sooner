@@ -249,7 +249,7 @@ k.scene("start", () => {
 
     // Display instructions
     k.add([
-        k.text('Press the "Spacebar" to jump over the boxes\nIf you get pushed offscreen, you lose the game', 
+        k.text('Press the "Spacebar" to jump over the boxes \nCollect "The Red Pill" to get extra points \nIf you get pushed offscreen, you lose the game', 
         { size: 32, font: "mania", align: "center" }),
         k.pos(k.center().x, k.center().y + 100), // Position below the start message
         k.anchor("center")
